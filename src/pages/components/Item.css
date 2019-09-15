@@ -28,3 +28,9 @@
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
     transition: box-shadow .1s;
 }
+
+@media screen and (max-width: 720px) {
+  .item-container button {
+    font-size: 1em;
+  }
+}

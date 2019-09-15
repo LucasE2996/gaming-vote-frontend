@@ -23,7 +23,7 @@
     grid-gap: 15px;
 }
 
-.sign-out {
+.main-container .sign-out {
     background-color: #7289da;
     position: absolute;
     right: 20px;
@@ -43,4 +43,20 @@
 .sign-out:hover {
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
     transition: box-shadow .1s;
+}
+
+@media screen and (max-width: 720px) {
+    .main-container h2 {
+        margin-top: 68px;
+        font-size: 2em;
+    }
+
+    .main-container ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-container .sign-out {
+      width: 90%;
+      font-size: 1em;
+    }
 }

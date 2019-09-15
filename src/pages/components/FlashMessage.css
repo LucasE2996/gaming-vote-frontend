@@ -30,8 +30,16 @@
 
 .active {
     opacity: 1;
+    z-index: 999;
 }
 
 .inactive {
     opacity: 0;
+    z-index: -999;
+}
+
+@media screen and (max-width: 720px) {
+    .flashmessage-container {
+        width: 340px;
+    }
 }
