@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cb5ae14.chunk.css",
+    "main.js": "/static/js/main.cad4d3ec.chunk.js",
+    "main.js.map": "/static/js/main.cad4d3ec.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.d92486f9.chunk.js": "/static/js/2.d92486f9.chunk.js",
+    "static/js/2.d92486f9.chunk.js.map": "/static/js/2.d92486f9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.07142d499d50948b5e95073ec8387072.js": "/precache-manifest.07142d499d50948b5e95073ec8387072.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5cb5ae14.chunk.css.map": "/static/css/main.5cb5ae14.chunk.css.map",
+    "static/media/App.css": "/static/media/Mario-Kart-DS.7a036854.ttf",
+    "static/media/wintaylor_logo.svg": "/static/media/wintaylor_logo.ddd71003.svg"
+  }
+}
