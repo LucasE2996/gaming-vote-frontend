@@ -1,0 +1,37 @@
+.flashmessage-container {
+    position: fixed;
+    top: 20px;
+    width: 400px;
+    border-radius: 4px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .5s;
+    background: #ed5565;
+    padding: 10px;
+}
+
+.flashmessage-container h5 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.flashmessage-container .icon {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.active {
+    opacity: 1;
+}
+
+.inactive {
+    opacity: 0;
+}

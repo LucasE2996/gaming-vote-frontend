@@ -1,0 +1,46 @@
+.main-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container h2 {
+    position: relative;
+    top: 30px;
+    color: #fff;
+    margin-bottom: 100px;
+    font-family: Mario-Kart;
+    font-size: 3em;
+}
+
+.main-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.sign-out {
+    background-color: #7289da;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    outline: none;
+    outline-offset: 0px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-out:hover {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow .1s;
+}

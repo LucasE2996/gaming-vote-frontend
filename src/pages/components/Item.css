@@ -1,0 +1,30 @@
+.item-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.item-container img {
+    max-width: 100%;
+}
+
+.item-container button {
+    outline: none;
+    outline-offset: 0px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item-container button:hover {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow .1s;
+}

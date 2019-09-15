@@ -1,0 +1,15 @@
+@font-face{
+  font-family: "Mario-Kart";
+  src: url('./assets/Mario-Kart-DS.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #2c2f33;
+}

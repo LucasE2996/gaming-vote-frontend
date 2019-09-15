@@ -1,0 +1,99 @@
+.login-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .3s;
+}
+
+.login-container h2 {
+    position: relative;
+    top: 0px;
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: Mario-Kart;
+    font-size: 3em;
+}
+
+.login-container img {
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+.login-container form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.login-container .box {
+    outline: none;
+    outline-offset: 0px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.login-container form input {
+    color: #9b9b9b;
+    font-weight: 700;
+}
+
+.login-container form input::placeholder {
+    color: #b2b2b2;
+    font-weight: 500;
+}
+
+.login-container form input:focus {
+    box-shadow: 0 0 5px #1ab394;
+    transition: .2s;
+}
+
+.login-container .error-box {
+    position: absolute;
+    background-color: #ed5565;
+    padding: 10px;
+    right: -200px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.login-container .error-box::before {
+    content: "";
+    position: absolute;
+    border-width: 0px 15px 15px;
+    border-style: solid;
+    display: block;
+    width: 0;
+    top: 10px;
+    left: -15px;
+    bottom: auto;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #ed5565;
+}
+
+.login-container form .error-box p {
+    font-size: .8em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+.login-container form button {
+    color: #fff;
+    font-weight: bold;
+    background-color: #1ab394;
+    cursor: pointer;
+}
+
+.login-container form button:active {
+    background-color: #88e0e0;
+    transition: all .1s;
+}
